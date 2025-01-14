@@ -6,8 +6,8 @@ import json
 app = Flask(__name__)
 
 # Base API URL and Flow ID
-BASE_API_URL = "http://20.80.232.234:7860"
-FLOW_ID = "04286093-1aa3-44bc-86fc-00fc9f8e80c8"
+BASE_API_URL = ""
+FLOW_ID = ""
 
 # Configure logging
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
